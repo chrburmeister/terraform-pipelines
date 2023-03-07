@@ -1,6 +1,5 @@
 parameters:
 - name: terraform_directory
-  displayName: 'path to terraform directorty'
   default: '$(Build.Repository.LocalPath)/terraform'
 - name: terrascan_config_name
   default: '.terrascan-config.toml'

@@ -1,7 +1,4 @@
 parameters:
-- name: environment
-  default: 'develop'
-  displayName: name of environment
 - name: vm_image
   default: 'ubuntu-20.04'
   values:

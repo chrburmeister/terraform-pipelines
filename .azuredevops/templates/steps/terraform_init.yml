@@ -1,6 +1,5 @@
 parameters:
 - name: terraform_directory
-  displayName: 'path to terraform directorty'
   default: '$(Build.Repository.LocalPath)/terraform'
 - name: tfvars_file_secure_backend
 

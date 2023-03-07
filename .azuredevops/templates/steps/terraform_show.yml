@@ -1,6 +1,5 @@
 parameters:
 - name: terraform_directory
-  displayName: 'path to terraform directorty'
   default: '$(Build.Repository.LocalPath)/terraform'
 - name: plan_file_name
   default: 'tfplan'
